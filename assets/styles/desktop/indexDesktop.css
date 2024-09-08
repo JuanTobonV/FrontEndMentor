@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    font-family: "Barlow", sans-serif;
+}
+
+.mainPage, .aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px 150px;
+    gap:30px
+
+}
+
+.mainPageText p, .aboutMe p{
+    font-size: 1.5rem;
+}
+
+.mainImage img, .aboutMe img{
+    width: 500px;
+    object-fit: cover;
+}
+
+.mainPageText a {
+    text-decoration: none;
+    color: white;
+    background-color: #3E54A3;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    transition: all 0.4s;
+
+}
+
+.viewChallengesTitle{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewChallengesTitle p{
+    font-size: 1.5rem;
+}
+
+.viewChallenges{
+    background-color: #F4F4F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cardSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.cardSection a{
+    text-decoration: none;
+
+}
+.card{
+    transition: all 0.4s;
+
+}
+
+.cardText{
+    padding: 10px;
+}
+
+.cardText h3{
+    font-size: 1.5rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 10%;
+    background-color: #F4F4F5;
+}
+
+.contact .contactText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    padding: 0px 300px;
+    text-align: center;
+    width: 100%;
+}
+
+.contact .contactText p {
+    font-size: 1.4rem;
+}
+
+.contact form{
+    padding: 10px 350px;
+}
+
+.footerText p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px 0px;
+}
+
+.mainPageText a:hover{
+    background-color: rgb(41, 55, 107);
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
