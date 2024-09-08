@@ -126,5 +126,11 @@
 }
 
 .nav-item:hover{
-    border-bottom: 2px solid #3E54A3; /* Color del borde */
+    border-bottom: 2px solid white; /* Color del borde */
 }
+
+.navbar-custom {
+    background-color: #3E54A3 ; /* Cambia a tu color deseado */
+    margin: 0;
+    color: white;
+  }
