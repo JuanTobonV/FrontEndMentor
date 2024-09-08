@@ -8,7 +8,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/mobile.css" media="screen and (max-width: 1134px)">
+  <link rel="stylesheet" href="./styles/desktop.css" media="screen and (min-width: 1134px)">
+
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
@@ -18,62 +20,50 @@
 <body>
 
     <main>
-      <div>
-  
-        <div class="mainContainer">
-  
-          <div class="mainImage">
-              <img src="assets/images/avatar-jessica.jpeg" alt="">
-          </div>
-  
-          <div class="title">
-            <h1>Jessica Randall</h1>
-          </div>
-  
-          <div class="subtitle">
-            <h2>London, United Kingdom</h2>
-          </div>
-  
-          <div class="paragraph">
-            <h3>"Front-end developer and avid reader."</h3>
-          </div>
-  
-          <div class="menu">
-            <div class="options">
-              <a href="">Github</a>
+
+      <section class="mainContainer">
+        <div class="mainBox">
+            <div class="mainImage">
+              <img src="../social-links-profile-main/assets/images/avatar-jessica.jpeg" alt="">
             </div>
-  
-            <div class="options">
-              <a href="">Frontend Mentor</a>
+
+            <div class="mainText">
+              <h3>
+                Jessica Randall
+              </h3>
+
+              <p>
+                London, United Kingdom
+              </p>
             </div>
-  
-            <div class="options">
-              <a href="">Linkedin</a>
+
+            <div class="description">
+              <p>"Front-end developer and avid reader."</p>
             </div>
-  
-            <div class="options">
-              <a href="">Twitter</a>
+
+            <div class="socialMedia">
+              <ul>
+                <li> <a href="">Github</a> </li>
+                <li> <a href="">Frontend Mentor</a> </li>
+                <li> <a href="">LinkedIn</a> </li>
+                <li> <a href="">Twitter</a> </li>
+                <li> <a href="">Instagram</a> </li>
+              </ul>
             </div>
-  
-            <div class="options">
-              <a href="">Instagram</a>
-            </div>
-  
-          </div>
-  
-  
-        </div> 
+        </div>
+
+
+        <div class="attribution">
+          <p>
+            Challenge by  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Juan José Tobón Villa</a>.
         
-      </div>
+          </p>
+        </div>
 
+      </section>
     </main>
-
-
   
-  <div class="attribution">
-    <p>
-      Challenge by  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Juan José Tobón Villa</a>.
-    
-    </p></div>
+
+
 </body>
 </html>
