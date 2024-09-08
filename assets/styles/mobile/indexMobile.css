@@ -64,7 +64,7 @@
     font-weight: 600;
 }
 
-.viewChallenges p{
+.viewChallenges #viewChallengesTitlep{
     font-size: 1.2rem;
     color: #333;
     margin-top: 0.5rem;
@@ -84,21 +84,12 @@
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     margin: 1rem;
     width: 300px;
-    padding: 1rem;
-    text-align: center;
     text-decoration: none;
 }
 
-.card img{
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
 
-.card h3{
-    font-size: 1.5rem;
-    color: #333;
-    margin-top: 1rem;
+.cardText{
+    padding: 1rem;
 }
 
 .footerText{
