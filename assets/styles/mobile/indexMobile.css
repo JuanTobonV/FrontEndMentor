@@ -138,6 +138,12 @@
     text-align: center;
 }
 
+.aboutMe img{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+
 .contactText{
     display: flex;
     flex-direction: column;
@@ -162,15 +168,7 @@
 
 form{
     display: flex;
+    padding: 10px 3rem;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-}
-
-form input{
-    width: 100%;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    border-radius: 5px;
-    border: 1px solid #333;
 }
