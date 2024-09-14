@@ -2,6 +2,9 @@
     margin: 0px;
 }
 
+body{
+    background-color: #F4E6D8;
+}
 
 p{
     color: hsl(30, 10%, 34%);
@@ -18,9 +21,18 @@ p{
 
 }
 
+.mainContainer{
+    margin: 100px 300px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
 
 .mainImage img{
     width: 100%;
+    border-radius: 10px;
     
 }
 
@@ -115,7 +127,7 @@ p{
 }
 
 .attribution p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 10px;
 }
 
