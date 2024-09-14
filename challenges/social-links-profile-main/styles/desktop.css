@@ -2,104 +2,79 @@
     margin: 0px;
     font-family: 'Inter';
     color:white;
-
-
+    text-align: center;
+    list-style: none;
+    padding: 0;
 }
+
+
 
 .mainContainer{
+    background-color: hsl(0, 0%, 8%);
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    background-color: hsl(0, 0%, 8%) ;
-    height: 105vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.mainBox{
+.socialCard{
     background-color: hsl(0, 0%, 12%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    margin: 10vh 60vh;
-    height: 80%;
+    padding: 40px;
+    margin: 20px;
     border-radius: 10px;
-
 }
 
 .mainImage img{
-    border-radius: 100%;
-    width: 100px;
-    margin: 40px 0px 15px 0px;
-    
-
+    border-radius: 50%;
+    width: 30%;
+    margin-bottom: 20px;
 }
 
-.mainText{
+.mainTitle h3{
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.mainParagraph p{
+    margin-bottom: 20px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size:1rem ;
+}
+
+.descriptionP{
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.socialLinks ul{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-
-.mainText h3{
-
-    font-weight: 430;
-    font-size: 1.5rem;
-
-}
-
-.mainText p{
-    color:hsl(75, 94%, 57%);
-    font-weight: 500;
-
-    margin-bottom: 14px;
-}
-
-.description{
-    margin-bottom: 50px;
-}
-
-.socialMedia ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
-
+    height: 200%;
+    gap: 10px;
     
 }
 
-.socialMedia li{
-    list-style: none;
-}
 
 
-.socialMedia a{
-    text-decoration: none;
-    color: white;
-    width: 300px;
-    height: 30px;
+.link a{
     background-color: hsl(0, 0%, 20%);
+
     display: flex;
-    align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 1rem;
 
 
 }
 
-.attribution{
-    text-align: center;
-    padding: 0px 20px 20px 20px;
+a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%)
 }
-
-.socialMedia a:hover{
-    color: hsl(0, 0%, 20%);
-    background-color:hsl(75, 94%, 57%) ;
-}
-
-
-
-
-
