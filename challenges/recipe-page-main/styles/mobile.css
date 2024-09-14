@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+}
+
+.serif{
+    font-family: "Young Serif", serif;
+}
+
+.outfit, p, li, tr{
+    font-family: "Outfit", sans-serif;
+}
+
+
+.mainImage img{
+    width: 100%;
+    
+}
+
+.mainText{
+    padding: 30px 40px 40px 40px;
+}
+
+.mainText h1{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.mainText>p{
+    font-weight: 100;
+}
+
+.preparationTimeContainer{
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+    margin: 0px 40px 40px 40px;
+    padding: 30px
+   
+}
+
+.preparationTimeContainer h2{
+    color: hsl(332, 51%, 32%);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.preparationTimeContainer li{
+    padding: 10px;
+    color: hsl(30, 10%, 34%);
+}
