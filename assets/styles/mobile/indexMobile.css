@@ -92,6 +92,25 @@
     padding: 1rem;
 }
 
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.iconleft div img{
+    width: 35px;
+    transition: all 0.3s;
+}
+
+.iconRigth img{
+    width: 35px;
+    transition: all 0.3s;
+}
+
 .footerText{
     background-color: white;
     color: #333;
