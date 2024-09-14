@@ -14,6 +14,7 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -71,7 +72,7 @@
 
 }
 
-a:hover{
+.link a:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%)
 }
