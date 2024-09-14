@@ -72,6 +72,9 @@
 
 }
 .card{
+    
+    width: 300px;
+    text-decoration: none;
     transition: all 0.4s;
 }
 
