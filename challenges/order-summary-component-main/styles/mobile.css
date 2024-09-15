@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+main{
+    background-color: hsl(225, 64%, 77%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.cardContainer{
+    background-color: hsl(228, 98%, 41%);
+    height: auto;
+
+    
+}
+
+.card{
+    margin: 10px;
+}
+
+.mainImage img{
+    width: 100%;
+}
