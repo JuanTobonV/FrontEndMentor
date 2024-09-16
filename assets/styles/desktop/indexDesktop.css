@@ -56,12 +56,13 @@
 }
 
 .cardSection{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: auto;
     gap: 20px;
     padding: 20px;
+    flex-wrap: wrap;
 
     margin-bottom: 200px;
     
