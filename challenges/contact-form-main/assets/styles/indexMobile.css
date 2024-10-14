@@ -2,124 +2,115 @@
   margin: 0px;
   padding: 0px;
   font-family: "Karla", sans-serif;
+  box-sizing: border-box;
 }
 
-
 @media (width <= 1440px) {
-    main{
-        background-color: hsl(148, 38%, 91%);
-        height: auto;
-        padding: 30px 20px;
-    }
-    
-    form{
-        background-color: hsl(0, 0%, 100%);
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        gap: 10px;
-        padding: 30px;
-        width: auto;
-        
-    }
+  main {
+    background-color: hsl(148, 38%, 91%);
+    height: auto;
+    padding: 30px 20px;
+  }
 
-    div{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        
-    }
-    
-    .form__title{
-        font-size: 1.8rem;
-        font-weight: 600;
-        color: hsl(187, 24%, 22%);
-        margin-bottom: 10px;
-    
-    }
-    
-    .form_inputs, .form__checkbox, #form__submitButton{
-        width: 100%;
-        height: 60px;
-        font-size: 1.1rem;
-        border-radius: 5px;
-        border: 1px solid hsl(186, 15%, 59%);
-        
-        
-    }
-    
-    span{
-        color:hsl(186, 15%, 59%);
-    }
-    
-    .form__labels{
-        margin: 25px 0px 10px 0px;
-    }
-    
-    
-    .form_inputRadio{
-        margin-left: 40px;
-        transform: scale(2); 
-    }
-    
-    .form__checkbox{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        gap: 20px;
-    }
-    .checkbox{
-        margin-bottom: 10px;
-    }
-    
-    .form_message{
-        height: 300px;
-    }
-    
-    .form__inputCheckBox{
-        transform: scale(1.3);
-        
-    }
-    
-    .form__check{
-        display: flex;
-        gap: 15px;
-        flex-direction: row;
-        margin-top: 45px;
-        padding-left: 10px;
-       
-    }
-    
-    #form__submitButton{
-        margin-top: 50px;
-        height: 70px;
-        font-size: 1.5rem;
-        font-weight: 500;
-        color: white;
-        background-color:hsl(169, 82%, 27%);
-        
-    }
-    
-    .box-option{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+  form {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding: 30px;
+    width: auto;
+  }
 
-    .options{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
+  div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: hsl(187, 24%, 22%);
+    margin-bottom: 10px;
+  }
+
+  .form_inputs,
+  .form__checkbox,
+  #form__submitButton {
+    width: 100%;
+    height: 60px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 15%, 59%);
+  }
+
+  span {
+    color: hsl(186, 15%, 59%);
+  }
+
+  .form__labels {
+    margin: 25px 0px 10px 0px;
+  }
+
+  .form_inputRadio {
+    margin-left: 40px;
+    transform: scale(2);
+  }
+
+  .form__checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+  .checkbox {
+    margin-bottom: 10px;
+  }
+
+  .form_message {
+    height: 300px;
+  }
+
+  .form__inputCheckBox {
+    transform: scale(1.3);
+  }
+
+  .form__check {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    margin-top: 45px;
+    padding-left: 10px;
+  }
+
+  #form__submitButton {
+    margin-top: 50px;
+    height: 70px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    background-color: hsl(169, 82%, 27%);
+  }
+
+  .box-option {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (width > 1440px) {
   main {
     background-color: hsl(148, 38%, 91%);
-    height: 89vh ;
+    height: 100vh;
     padding: 100px 500px 0px 500px;
   }
 
@@ -139,16 +130,13 @@
     margin-bottom: 10px;
   }
 
-
-  div{
+  div {
     display: flex;
     flex-direction: column;
     gap: 10px;
 
     width: 100%;
-    
-}
-
+  }
 
   .form_inputs,
   .form__checkbox,
@@ -160,65 +148,73 @@
     border: 1px solid hsl(186, 15%, 59%);
   }
 
-  span{
-    color:hsl(186, 15%, 59%);
-    }
-.box__One{
+  span {
+    color: hsl(186, 15%, 59%);
+  }
+
+  .box__One {
     grid-column-start: 1;
     grid-column-end: 2;
-}
+  }
 
-.box__Email{
+  .box__Email {
     grid-column-start: 1;
     grid-column-end: 3;
-}
+  }
 
-.form__labels{
-   grid-column: 1/2;
-}
+  .form__labels {
+    grid-column: 1/2;
+  }
 
-.message{
+  .message {
     grid-column-start: 1;
     grid-column-end: 2;
+  }
 
-}
-
-.box-option{
+  .box-option {
     grid-column: 1/3;
-}
+  }
 
-.options{
+  .options {
     display: flex;
     flex-direction: row;
-}
+  }
 
-.form__checkbox{
+  .form__checkbox {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-left: 20px;
-}
+  }
 
-.message, .consent{
+  .message,
+  .consent {
     grid-column: 1/3;
-}
+  }
 
-.form__check{
+  .form_message {
+    height: 100px;
+    
+  }
+
+
+  .form__check {
     display: flex;
     flex-direction: row;
-}
+  }
 
-#form__submitButton{
+  #form__submitButton {
     margin-top: 10px;
     height: 70px;
     grid-column: 1/3;
     font-size: 1.5rem;
     font-weight: 500;
     color: white;
-    background-color:hsl(169, 82%, 27%);
+    background-color: hsl(169, 82%, 27%);
+  }
+
+  input{
+    padding: 0px 10px;
     
+  }
 }
-
-}
-
-
