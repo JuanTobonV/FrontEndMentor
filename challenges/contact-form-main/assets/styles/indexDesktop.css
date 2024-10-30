@@ -97,6 +97,16 @@
         border-radius: 10px;
     }
 
+    .form__check{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .form__inputCheckBox {
+        transform: scale(1.3);
+      }
+
     
 
     #form__submitButton{
