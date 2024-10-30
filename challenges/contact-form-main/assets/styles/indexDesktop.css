@@ -1,0 +1,111 @@
+@media (width > 1240px) {
+    *{
+        border-radius: 5px;
+    }
+    
+    body{
+        width: 100%;
+
+    }
+
+    main{
+        background-color: hsl(148, 38%, 91%);
+        padding: 5% 20% ;
+        height: auto;
+
+
+    }
+    form{
+        background-color: hsl(0, 0%, 100%);
+        padding: 40px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+    }
+
+    span {
+        color: hsl(186, 15%, 59%);
+      }
+
+    .form__title{
+        font-size: 2rem;
+        font-weight: 600;
+        color: hsl(187, 24%, 22%);
+        
+
+    }
+
+    .form__labels{
+        margin-bottom: 10px;
+    }
+
+    .options{
+        margin-top: 10px;
+    }
+
+    .form_inputs{
+        height: 40px;
+    }
+
+    .box__One{
+        grid-column: 1/2;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box__Two{
+        grid-column: 2/2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box__Email{
+        display: flex;
+        flex-direction: column;
+        grid-column: 1/3;
+        
+    }
+
+    .box-option, .message, #form__submitButton{
+        grid-column: 1/3;
+        width: 100%;
+
+    }
+
+    .message{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .form_message{
+        height: 100px;
+    }
+
+    .options{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form__checkbox{ /*Need help with these properties*/
+        border: 1px solid black;
+        width: 49%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    
+
+    #form__submitButton{
+        padding: 15px;
+        background-color: hsl(169, 82%, 27%);
+        color: white;
+    }
+
+    
+
+  }
+  
