@@ -11,7 +11,7 @@
     main{
         background-color: hsl(148, 38%, 91%);
         padding: 5% 20% ;
-        height: auto;
+        height: 100vh;
 
 
     }
@@ -115,6 +115,9 @@
         color: white;
     }
 
+    .error{
+        border: 1px solid red;
+    }
     
 
   }

@@ -11,5 +11,7 @@ submitButton.addEventListener('click', () => {
     let message = document.getElementById('form_message').value;
     let consent = document.getElementById('form_checkbox').value;
         
-    console.log(firstName);
+    let inputs = document.getElementsByClassName('inputs');
+    
+
 })
