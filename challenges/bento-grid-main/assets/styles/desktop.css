@@ -1,10 +1,24 @@
 @media (width >= 1200px) {
     main {
-        margin: 30px;
+        margin: 60px 160px;
         display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 20px;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 75px;
+        gap: 2rem;
+        grid-template-areas: 
+
+            "box1 box2 box2 box3"
+            "box1 box2 box2 box3"
+            "box1 box2 box2 box3"
+            "box1 box5 box6 box3"
+            "box1 box5 box6 box3"
+            "box4 box5 box6 box3"
+            "box4 box7 box8 box8"
+            "box4 box7 box8 box8"
+            "box4 box7 box8 box8"
+            "box4 box7 box8 box8"
+
+        ;
     }
 
     .rounded {
@@ -16,20 +30,21 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        grid-column: 2/4;
+        grid-area: box2;
         padding: 30px;
     }
 
     .socialMedia__title {
-        font-size: 2.5rem;
+        font-size: 4rem;
         color: white;
         text-align: center;
         padding-bottom: 20px;
+        padding: 0px 30px;
     }
 
     .socialMedia__paragraph {
         color: hsl(39, 100%, 71%);
-        font-size: 2.8rem;
+        font-size: 4.1rem;
     }
 
     .main__section--socialMedia p:nth-child(3) {
@@ -42,31 +57,44 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        grid-area: box5 ;
         background-color: white;
+        height: auto;
         gap: 10px;
-        grid-column: 2/3;
-        grid-row: 2/3;
-        padding: 20px 0px;
+        padding: 20px 10px;
     }
 
+
     .main__section--manageInfo p {
-        font-size: 1.4rem;
+        font-size: 2rem;
         margin-left: 10px;
+        margin-top: 10px;
+        font-weight: 600;
     }
 
     .main__section--consistentSchedule {
         background-color: hsl(39, 100%, 71%);
-        padding: 15px 15px 0px;
+        padding: 20px 28px 0px;
         display: flex;
+        grid-area: box6;
         gap: 13px;
         flex-direction: column;
-        grid-row: 2/3;
-        grid-column: 3/4;
+        position: relative;
+        align-items: center;
+        overflow: hidden;
+    
+    }
+    .main__section--consistentSchedule img{
+        position: relative;
+        bottom:0;
+        align-items: center;
     }
 
     .main__section--consistentSchedule p {
-        font-size: 1.5rem;
+        font-size: 2.2rem;
         font-weight: 500;
+        padding-right: 80px;
+        padding-bottom: 17px;
     }
 
     .main__section--scheduleSocialMedia {
@@ -74,89 +102,103 @@
         padding: 25px 20px;
         display: flex;
         gap: 20px;
+        grid-area: box3;
         flex-direction: column;
         align-items: center;
-        grid-column: 4/5;
-        grid-row: 1/3;
+        overflow: hidden;
+        
     }
 
     .main__section--scheduleSocialMedia p:nth-child(1) {
-        font-size: 1.4rem;
+        font-size: 2rem;
         font-weight: 500;
     }
 
     .main__section--scheduleSocialMedia p:nth-child(3) {
         text-align: center;
-        font-size: 1.1rem;
-        font-weight: 300;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    .main__section--scheduleSocialMedia img{
+        position: relative;
+        left: 140px;
     }
 
     .main__section--growFollowers{
         background-color: hsl(256, 67%, 59%);
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        grid-column: 3/5;
-        grid-row: 3/4;
-        padding: 20px;
+        grid-area: box8;
+        justify-content: center;
+        padding: 30px;
     }
 
     .main__section--growFollowers p:nth-child(2){
         color:white;
-        font-size: 1.7rem;
+        font-size: 2.6rem;
+        font-weight: 700;
         text-align: center;
-        padding:  20px 25px 0px;
+        padding:  20px 55px 0px;
+    }
+
+    .main__section--growFollowers img{
+        margin-left: 50px;
     }
 
     .main__section--audienceGrowth{
         background-color: white;
         padding: 20px;
-        grid-row: 3/4;
-        grid-column: 2/3;
+        grid-area: box7;
+        
     }
 
     .main__section--audienceGrowth p:nth-child(1) {
-        font-size: 3rem;
+        font-size: 4.2rem;
     }
 
     .main__section--audienceGrowth p:nth-child(2) {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         padding: 10px 0px 20px;
-        font-weight: 300;
+        font-weight: 400;
+    }
+    .main__section--audienceGrowth img{
+        margin-top: 40px;
     }
 
     .main__section--scheduleQuicker{
         background-color: hsl(31, 66%, 93%);
-        padding: 30px;
+        padding: 75px 30px;
         display: flex;
+        grid-area: box1;
         flex-direction: column;
-        grid-column: 1/2;
-        grid-row: 1/2;
+        
+        
         gap: 20px;
     }
 
     .main__section--scheduleQuicker p:nth-child(1){
-        font-size: 1.6rem;
+        font-size: 2.8rem;
         font-weight: 500;
     }
 
     .main__section--writeAi{
         background-color: hsl(39, 100%, 71%);
-        padding: 20px;
+        padding: 30px;
         display: flex;
         flex-direction: column;
-        grid-column: 1/2;
-        grid-row: 3/4 ;
+        align-items: center;
+        grid-area: box4;
         gap: 15px;
     }
 
     .main__section--writeAi p{
-        font-size: 1.6rem;
+        font-size: 2.8rem;
+        padding-right: 60px;
         font-weight: 500;
     }
-
-    .main__section--manageInfo,
-    .main__section--writeAi {
-        height: 50%;
+    .main__section--writeAi img{
+        padding: 40px auto 0px;
     }
 }
