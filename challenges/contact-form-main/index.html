@@ -1,126 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" href="./assets/styles/indexMobile.css">
+    <link rel="stylesheet" href="./assets/styles/indexMobile.css" />
+    <link rel="stylesheet" href="./assets/styles/indexDesktop.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-  
-  <title>Frontend Mentor | Contact form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> 
-</head>
+    <title>Frontend Mentor | Contact form</title>
 
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
+    <main>
+      <form action="">
+        <label class="form__title" for="">Contact Us</label>
 
-  <main >
-    <form action="">
-      <label class="form__title" for="">Contact Us</label>
-      
-      <label class="form__labels" for="">First Name <span>*</span></label>
-      <input class="form_inputs" type="text">
+        <div class="box__One">
+          <label class="form__labels" for="">First Name <span>*</span></label>
+          <input id="form_firstName" class="form_inputs inputs" type="text" />
+        </div>
 
-      <label class="form__labels" for="">Last Name <span>*</span></label>
-      <input class="form_inputs" type="text">
+        <div class="box__Two">
+          <label class="form__labels" for="">Last Name <span>*</span></label>
+          <input id="form_lastName" class="form_inputs inputs" type="text" />
+        </div>
 
-      <label class="form__labels" for="">Email address <span>*</span></label>
-      <input class="form_inputs" type="text">
+        <div class="box__Email">
+          <label class="form__labels" for=""
+            >Email address <span>*</span></label>
+          <input id="form_email" class="form_inputs inputs" type="text" />
+        </div>
 
-      <label for="" class="form__labels">Query Type <span>*</span></label>
+        <div class="box-option">
+          <label for="" >Query Type <span>*</span></label>
 
-      <div class="form__checkbox">
-        <input class="form_inputRadio" type="radio" name="" id="">
-        <label for="">
-          General Enquiry
+          <div class="options">
+            <div class="form__checkbox checkbox">
+              <input
+                class="form_inputRadio inputs"
+                type="radio"
+                name="options"
+                id="form_firstOption"
+              />
+              <label for=""> General Enquiry </label>
+            </div>
 
-        </label>
+            <div class="form__checkbox">
+              <input
+                class="form_inputRadio inputs"
+                type="radio"
+                name="options"
+                id="form_secondOption"
+              />
+              <label for=""> Support Request </label>
+            </div>
+          </div>
+        </div>
 
-      
-      </div>
-      <br>
-      <div class="form__checkbox">
+        <div class="message">
+          <label for="" class="form__labels">Message <span>*</span></label>
+          <input class="form_inputs form_message inputs" type="text" name="" id="form_message" />
+        </div>
 
-        <input class="form_inputRadio" type="radio" name="" id="">
+        <div class="consent">
+          <div class="form__check">
+            <input class="form__inputCheckBox inputs" type="checkbox" name="" id="form_checkbox" />
 
-        <label for="">
-            Support Request
-        </label>
+            <label for="">
+              I consent to being contacted by the team <span>*</span>
+            </label>
+          </div>
+        </div>
 
-        
-      </div>
+        <input id="form__submitButton" type="button" value="Submit" />
+      </form>
+    </main>
 
-      <label for="" class="form__labels">Message <span>*</span></label>
-      <input class="form_inputs form_message" type="text" name="" id="">
-
-      <div class="form__check">
-
-        <input class="form__inputCheckBox" type="checkbox" name="" id="">
-
-        <label for="">
-          I consent to being contacted by the team <span>*</span>
-        </label>
-
-        
-      </div>
-
-      <input id="form__submitButton" type="button" value="Submit">
-    </form>
-  </main>
-
- 
-
-
-
-
-
-
-
-
-
-  <!--
-
-  Contact Us
-
-  First Name
-  This field is required
-
-  Last Name
-  This field is required
-
-  Email Address
-  Please enter a valid email address
-  This field is required
-
-  Query Type
-  General Enquiry
-  Support Request
-  Please select a query type
-
-  Message
-  This field is required
-
-  I consent to being contacted by the team
-  To submit this form, please consent to being contacted
-
-  Submit
-
-  Message Sent!
-  Thanks for completing the form. We'll be in touch soon!
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>-->
-</body>
+    <script src="./app/app.js"></script>
+  </body>
 </html>
