@@ -5,33 +5,114 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/styles/mobile.css">
+  <link rel="stylesheet" href="assets/styles/desktop.css">
 
-  <link rel="stylesheet" href="./style/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Bento grid</title>
 
- 
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      margin: 0;
+      box-sizing: border-box;
+      padding: 0;
+      font-family: "Karla", serif;
 
+    }
+
+    body{
+      width: 100%;
+      height: fit-content;
+      background-color: #f5f5f5;
+    }
+
+  </style>
 </head>
 <body>
 
   <main>
-    <section>
-      <div class="grid-container">
-          <div class="grid-item item1"></div>
-          <div class="grid-item item2"></div>
-          <div class="grid-item item3"></div>
-          <div class="grid-item item4"></div>
-          <div class="grid-item item5"></div>
-          <div class="grid-item item6"></div>
-          <div class="grid-item item7"></div>
-          <div class="grid-item item8"></div>
-      </div>
+    <section class="main__section--socialMedia rounded">
+      <p class="socialMedia__title">
+        Social Media <span class="socialMedia__paragraph">10x</span> <i>Faster</i> with AI
+      </p>
+      <img width="150px" src="assets/images/illustration-five-stars.webp" alt="">
+      <p> Over 4,000 5-star reviews </p>
+
+    </section>
+
+    <section class="main__section--manageInfo rounded">
+        <img width="300px" src="./assets/images/illustration-multiple-platforms.webp" alt="">
+        <p>  Manage multiple accounts and platforms.</p>
+
+    </section>
+
+    <section class="main__section--consistentSchedule rounded">
+      <p>  
+        Maintain a consistent posting schedule.
+        
+      </p>
+      <img width="200px" src="./assets/images/illustration-consistent-schedule.webp" alt="">
+    </section>
+
+
+    <section class="main__section--scheduleSocialMedia rounded">
+      <p>
+        Schedule to social media.
+      </p>
+
+      <img width="280px" src="./assets/images/illustration-schedule-posts.webp" alt="">
+
+      <p>
+        Optimize post timings to publish content at the perfect time for your audience.
+      </p>
+    </section>
+
+    <section class="main__section--growFollowers rounded">
+        <img width="250px" src="./assets/images/illustration-grow-followers.webp" alt="">
+        <p>
+          Grow followers with non-stop content.
+        </p>
+    </section>
+
+    <section class="main__section--audienceGrowth rounded">
+        
+        <p> >56% </p>
+           
+        <p>
+            
+          faster audience growth
+  
+        </p>        
+
+        <img width="200px" src="./assets/images/illustration-audience-growth.webp" alt="">
+    </section>
+
+    <section class="main__section--scheduleQuicker rounded">
+        <p>
+          Create and schedule content <i style="color: hsl(256, 67%, 59%);">quicker</i>.
+
+        </p>
+
+        <img width="200px" src="./assets/images/illustration-create-post.webp" alt="">
+    </section>
+
+    <section class="main__section--writeAi rounded">
+      <p>
+        Write your content using AI.
+      </p>
+
+      <img width="220px" src="./assets/images/illustration-ai-content.webp" alt="">
     </section>
   </main>
 
-  <!--
-  Social Media 10x Faster with AI
+
+  <!-- Social Media 10x Faster with AI
   Over 4,000 5-star reviews
 
   Manage multiple accounts and platforms.
@@ -47,11 +128,11 @@
   
   Create and schedule content quicker.
 
-  Write your content using AI.
+  Write your content using AI. -->
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>-->
+    Coded by <a href="#">Juan José Tobón Villa</a>.
+  </div>
 </body>
 </html>
